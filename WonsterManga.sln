@@ -1,0 +1,54 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35514.174
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WonsterManga.AppHost", "WonsterManga.AppHost\WonsterManga.AppHost.csproj", "{AFEBFE92-AA45-439B-8A60-1C1A8F382473}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WonsterManga.ServiceDefaults", "WonsterManga.ServiceDefaults\WonsterManga.ServiceDefaults.csproj", "{72C07CB0-A0DA-4637-BCF2-CB73971CBCF9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{075564EB-C3B0-4E45-B4FC-0272EB049EED} = {075564EB-C3B0-4E45-B4FC-0272EB049EED}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WonsterManga.ApiService", "WonsterManga.ApiService\WonsterManga.ApiService.csproj", "{270F52F7-FBCB-41C8-A65B-408B43567FED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WonsterManga.Web", "WonsterManga.Web\WonsterManga.Web.csproj", "{AA08A636-BFC6-4DA1-B1C6-8C9C1620EBCB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WonsterManga.Tests", "WonsterManga.Tests\WonsterManga.Tests.csproj", "{17D814D9-F67A-42FB-90EC-54AA105E1C8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WonsterManga.Domain", "WonsterManga.Data\WonsterManga.Domain.csproj", "{075564EB-C3B0-4E45-B4FC-0272EB049EED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AFEBFE92-AA45-439B-8A60-1C1A8F382473}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFEBFE92-AA45-439B-8A60-1C1A8F382473}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFEBFE92-AA45-439B-8A60-1C1A8F382473}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFEBFE92-AA45-439B-8A60-1C1A8F382473}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72C07CB0-A0DA-4637-BCF2-CB73971CBCF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72C07CB0-A0DA-4637-BCF2-CB73971CBCF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72C07CB0-A0DA-4637-BCF2-CB73971CBCF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72C07CB0-A0DA-4637-BCF2-CB73971CBCF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{270F52F7-FBCB-41C8-A65B-408B43567FED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{270F52F7-FBCB-41C8-A65B-408B43567FED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{270F52F7-FBCB-41C8-A65B-408B43567FED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{270F52F7-FBCB-41C8-A65B-408B43567FED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA08A636-BFC6-4DA1-B1C6-8C9C1620EBCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA08A636-BFC6-4DA1-B1C6-8C9C1620EBCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA08A636-BFC6-4DA1-B1C6-8C9C1620EBCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA08A636-BFC6-4DA1-B1C6-8C9C1620EBCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17D814D9-F67A-42FB-90EC-54AA105E1C8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17D814D9-F67A-42FB-90EC-54AA105E1C8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17D814D9-F67A-42FB-90EC-54AA105E1C8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17D814D9-F67A-42FB-90EC-54AA105E1C8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{075564EB-C3B0-4E45-B4FC-0272EB049EED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{075564EB-C3B0-4E45-B4FC-0272EB049EED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{075564EB-C3B0-4E45-B4FC-0272EB049EED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{075564EB-C3B0-4E45-B4FC-0272EB049EED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
